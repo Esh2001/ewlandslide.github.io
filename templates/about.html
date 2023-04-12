@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/font-awesome-4.7.0/css/font-awesome.min.css">
+    <link rel= "stylesheet" type= "text/css" href= "{{ url_for('static',filename='style.css') }}">
+    <link rel= "stylesheet" type= "text/css" href= "{{ url_for('static',filename='font-awesome.min.css') }}">
+    <link rel= "stylesheet" type= "text/css" href= "{{ url_for('static',filename='/font-awesome-4.7.0/css/font-awesome.min.css') }}">
+   
+    <title>About Project</title>
+</head>
+<body>
+    <section class="sub-header">
+
+        <nav>
+            <a href="/"><img src= "{{ url_for('static', filename='images/Landslide_logo.png') }}" alt="logo"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="/">HOME</a></li>
+                    <li><a href="about" style="color: #964B00;">ABOUT PROJECT</a></li>
+                    <li><a href="landslide">LANDSLIDE</a></li>
+                    <li><a href="history">HISTORY</a></li>
+                    <li><a href="prediction">PREDICTION</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+        
+        </div>
+
+    </section>
+
+    <section class="about">
+        <h1>ABOUT PROJECT</h1>
+        
+    </section>
+
+    
